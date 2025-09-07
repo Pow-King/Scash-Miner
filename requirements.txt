@@ -1,0 +1,5 @@
+# 项目依赖项
+# 注意：Tkinter是Python标准库，无需额外安装
+# 以下是项目所需的依赖
+pyinstaller>=5.0.0
+Pillow>=9.0.0

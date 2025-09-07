@@ -1,0 +1,9 @@
+{
+    "wallet_address": "scash1qtvj3eryz8p46e9nu7zzn7yfg49j7lkns4t2698",
+    "worker_name": "x1",
+    "cpu_threads": "22",
+    "pool_address": "stratum+tcp://scash.work:9601",
+    "use_wallet_worker_format": true,
+    "retry_time": "30",
+    "send_stales": false
+}
