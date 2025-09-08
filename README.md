@@ -1,6 +1,34 @@
-# Scash Miner v1.8.1 - GitHub Release
+🚀 Scash-Miner —— 一键开启 SatoshiCash 安全无忧挖矿之旅！
+项目地址（GitHub Releases）：
 
-Scash Miner是一个为SRBMiner-Multi挖矿软件创建的用户友好的可视化操作界面，使用户能够方便地配置挖矿参数并一键启动挖矿进程，无需手动编辑批处理文件。
+https://github.com/Pow-King/Scash-Miner/releases
+
+Scash-Miner 是专为 SatoshiCash（SCASH）矿工打造的“一键式挖矿”助手，开源透明，安全无忧！项目完全免费，所有代码已在 GitHub 公开，无任何后门，支持二次开发和自由扩展。
+
+核心特性：
+
+🌟 一键启动，无需复杂配置，傻瓜式操作轻松上手
+🔒 完全开源，MIT 协议，代码透明可查
+🛡️ 0%开发费，Scash-Miner 本身绝不抽水
+🛠️ 支持 SRBMiner-MULTI 挖矿锄头（锄头自身会抽水1%，与本项目无关）
+🧑‍💻 支持任意钱包和矿工名，自动填入矿池
+🤖 自适应CPU核心数，挖矿效率高
+💡 针对 Devfee 错误设计，收益稳定，掉线也不会退出
+⏱️ 长期稳定运行，v1.0.0-1.8.1多轮测试，BUG极少
+我们的承诺：
+
+100%免费开源，代码完全公开，透明放心
+未设置任何后门、暗扣等隐蔽行为
+使用安全放心，如发现问题欢迎在 GitHub 提交 Issues，我们持续跟进优化
+温馨提示：
+
+Scash-Miner仅为挖矿管理前端，实际挖矿由 SRBMiner-MULTI 执行（该锄头会自动抽取1%开发费，此为SRBMiner特性，与本工具无关）
+程序绿色免安装，配置少，适合新老矿工
+矿池、区块浏览器、钱包、TG社区等配套生态一站式体验
+MIT开源协议，欢迎自由二次开发！欢迎使用、反馈、捐助与 Star！
+
+（v1.8.1 测试完毕，欢迎放心使用！如遇bug请在GitHub提交，我们会第一时间响应和修复。）
+
 
 ## 🎯 v1.8.1 重要修复
 
@@ -46,6 +74,15 @@ Scash Miner是一个为SRBMiner-Multi挖矿软件创建的用户友好的可视�
 - 社区钱包: https://scash.app
 - 锄头版本: https://github.com/doktor83/SRBMiner-Multi/releases/tag/2.5.2
 
+## 捐款地址
+
+如果您觉得这个工具对您有帮助，欢迎捐款支持开发：
+
+- **SCASH捐款地址**:
+- scash1qtvj3eryz8p46e9nu7zzn7yfg49j7lkns4t2698
+- 
+- **BSC USDT（BEP20）捐款地址**:
+-  0x16ff0b3a4d53d6ed4367d9916492643e26661724
 ## 项目文件说明
 
 - **main.py**: 主程序代码
@@ -58,12 +95,6 @@ Scash Miner是一个为SRBMiner-Multi挖矿软件创建的用户友好的可视�
 - **启动 Scash-Miner.bat**: 绿色版智能启动脚本
 - **SRBMiner-MULTI.exe**: 挖矿核心程序（需单独下载）
 
-## 捐款地址
-
-如果您觉得这个工具对您有帮助，欢迎捐款支持开发：
-
-- **SCASH捐款地址**: scash1qtvj3eryz8p46e9nu7zzn7yfg49j7lkns4t2698
-- **BSC USDT（BEP20）捐款地址**: 0x16ff0b3a4d53d6ed4367d9916492643e26661724
 
 ## 注意事项
 
@@ -76,13 +107,12 @@ Scash Miner是一个为SRBMiner-Multi挖矿软件创建的用户友好的可视�
 
 ### 🚀 快速开始
 
-1. 下载 SRBMiner-Multi v2.5.2:
-   https://github.com/doktor83/SRBMiner-Multi/releases/tag/2.5.2
-   
-2. 将下载的 SRBMiner-MULTI.exe 放到此目录
+1. 直接双击 Scash-Miner.exe
 
-3. 双击"启动 Scash-Miner.bat"运行程序
-   或直接双击 Scash-Miner.exe
+   软件包中包含SRBMiner-Multi v2.5.2 版本锄头
+   如需自己下载 SRBMiner-Multi v2.5.2:
+   https://github.com/doktor83/SRBMiner-Multi/releases/tag/2.5.2
+   将下载的 SRBMiner-MULTI.exe 放到此目录
 
 ### 📋 配置说明
 
@@ -164,4 +194,5 @@ pyinstaller --onefile --windowed --icon=scash-logo.ico --clean --name="Scash-Min
 - 看到"Couldn't get active devfee pools"等错误是正常的
 - 这不会影响您的挖矿收益
 - 程序会继续运行，无需担心
+
 - 如需改善可考虑启用VPN或调整防火墙设置
